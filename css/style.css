@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#container-header{
+    background-color: #7212b6;
+    height: 200px;
+}
+#container-header h3{
+    color: white;
+}
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+  }
+  
+  .optional-list li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  #container-form{
+    background-color: white;
+    margin-top: -80px;
+  }
+  .header-form{
+    padding-top: 10px;
+    border-bottom: 1px solid #7212b6;
+  }
+  .header-form h2{
+    color: #7212b6;
+    font-weight: 100;
+  }
+  .body-form{
+     padding-left: 20px;
+     padding-top: 50px;
+    
+  }
+  #div{
+    border-bottom: 1px solid #b4b4b4;
+  }
+  .required-field{
+    color: red;
+  }
+
+  p,
+label {
+  color: #444;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+  width: 400px;
+  padding-left: 10px;
+}
+
+textarea {
+  padding: 10px 5px;
+}
+.box-input {
+    margin-bottom: 35px;
+    margin-top: 20px;
+  }
+  .optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+  }
+  
+  .optional-list li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  .box-input p {
+    margin-bottom: 15px;
+  }
+  
+  .btn-submit {
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  
+  .btn-submit:hover {
+    background-color: #fff;
+    border-color: #673ab7;
+    color: #673ab7;
+  }
